@@ -1,0 +1,22 @@
+body{
+    background-color:#f8f9fa;
+}
+
+.carousel-item img{
+    height:500px;
+    object-fit:cover;
+}
+
+.card{
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.05);
+}
+
+@media(max-width:768px){
+    .carousel-item img{
+        height:300px;
+    }
+}
