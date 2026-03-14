@@ -1,0 +1,34 @@
+body {
+    padding-top: 70px; /* Espacio para que la navbar fija no tape el contenido */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* 10. Estilo para el banner de encabezado */
+.hero-section {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                url('https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1350&q=80');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+/* 6. Contenido de tabla con scroll (clase adicional) */
+.table-responsive {
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
+
+/* 8. Ajustes de espaciado general */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
