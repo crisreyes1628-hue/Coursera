@@ -1,0 +1,16 @@
+body {
+  background-color: #f8f9fa;
+}
+
+.producto {
+  transition: transform 0.3s;
+}
+
+.producto:hover {
+  transform: scale(1.05);
+}
+
+.footer {
+  background-color: #212529;
+  color: white;
+}
