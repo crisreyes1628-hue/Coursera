@@ -1,0 +1,18 @@
+// VARIABLES
+$amarillo: #ffc107;
+$rojo: #dc3545;
+$verde: #198754;
+
+// MIXIN
+@mixin caja-estilo($color) {
+  margin: 20px;
+  padding: 20px;
+  background-color: $color;
+  border-radius: 10px;
+  color: white;
+}
+
+// USO DEL MIXIN
+.container {
+  @include caja-estilo($verde);
+}

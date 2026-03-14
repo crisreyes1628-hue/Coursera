@@ -1,0 +1,13 @@
+{
+  "name": "mi-proyecto",
+  "version": "1.0.0",
+  "scripts": {
+  "scss": "sass style.scss css/styles.css",
+  "watch": "sass --watch style.scss css/styles.css"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.2",
+    "jquery": "^3.7.1",
+    "sass": "^1.70.0"
+  }
+}
